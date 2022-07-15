@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MelTimers", "src\MelTimers\MelTimers.csproj", "{3B709371-7B4D-41D5-9F0A-34E3CA14B6CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MelTimers.Tests", "test\MelTimers.Tests\MelTimers.Tests.csproj", "{E813903B-9791-43FA-AB21-7757385C7EB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MelTimers.Tests", "src\MelTimers.Tests\MelTimers.Tests.csproj", "{E813903B-9791-43FA-AB21-7757385C7EB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelTimers.Example", "MelTimers.Example\MelTimers.Example.csproj", "{CCAD50E9-60F5-4BC2-84D0-FE3C52451616}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelTimers.Example", "src\MelTimers.Example\MelTimers.Example.csproj", "{CCAD50E9-60F5-4BC2-84D0-FE3C52451616}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
