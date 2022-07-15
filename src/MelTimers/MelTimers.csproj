@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Extend Microsoft.Extensions.Logging with timed operations.</Description>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <Authors>Nate Haby;MelTimers Contributors;nblumhardt;SerilogTimings Contributors</Authors>
+    <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>10</LangVersion>
+    <PackageTags>logging;metrics;timings;operations</PackageTags>
+    <PackageProjectUrl>https://github.com/natehaby/MelTimers</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+    <PackageReference Include="Nullable" Version="1.3.1" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>
