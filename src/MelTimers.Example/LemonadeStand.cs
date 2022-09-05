@@ -2,11 +2,11 @@
 
 namespace MelTimers.Example;
 
-public class LemonaidStand
+public class LemonadeStand
 {
-    private readonly ILogger<LemonaidStand> _logger;
+    private readonly ILogger<LemonadeStand> _logger;
 
-    public LemonaidStand(ILogger<LemonaidStand> logger)
+    public LemonadeStand(ILogger<LemonadeStand> logger)
     {
         _logger = logger;
     }
@@ -15,7 +15,7 @@ public class LemonaidStand
     /// <summary>
     /// Demonstrates the basic use of the <see cref="BeginOperation"/> method.
     /// </summary>
-    public void ShopForIngrediants()
+    public void ShopForIngredients()
     {
         using (var op = _logger.BeginOperation("Shopping for {ingredientCount} ingredients", 15))
         {
@@ -29,11 +29,11 @@ public class LemonaidStand
     /// <summary>
     /// Demonstrates the use of the <see cref="BeginOperation"/> method with a custom completion message.
     /// </summary>
-    public void MakeLemonaid()
+    public void MakeLemonade()
     {
-        using (var op = _logger.BeginOperation("Making Lemonaid"))
+        using (var op = _logger.BeginOperation("Making Lemonade"))
         {
-            // Make some lemonaid
+            // Make some lemonade
             Task.Delay(500).Wait();
 
             var litersMade = 10;
